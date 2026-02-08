@@ -8,7 +8,7 @@ export default function ShowDetails({ show }) {
   const [selectedEpisode, setSelectedEpisode] = useState();
 
   if (!show) {
-    return <p> Select a Show</p>;
+    return <p>Select a Show</p>;
   }
 
   return (
